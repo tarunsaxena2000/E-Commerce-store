@@ -1,0 +1,139 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  margin: 20px auto;
+}
+
+/* Product List Styling */
+.card {
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Filter Section Styling */
+.form-label {
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Product Card Styling */
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-text {
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  width: 200px;
+font-size: 1rem;
+}
+.gre {
+  margin-left: -5.8em; 
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Shopping Cart Styling */
+.mt-4 {
+  margin-top: 20px;
+}
+
+.list-group {
+  width: 100%;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.list-group-item:last-child {
+  font-weight: bold;
+}
+btn-filter,
+.btn-search {
+  width: 80px;
+  margin-right: 10px;
+}
+
+
+
+/* Default styles for larger screens */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .nav-item {
+    margin: 0;
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    margin-top: 10px;
+  }
+
+  .input-group {
+    margin-top: 10px;
+  }
+}
+
+
+/* Responsive Design for Buttons */
+@media (max-width: 768px) {
+  .btn-filter,
+  .btn-search {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
